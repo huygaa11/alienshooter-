@@ -1,4 +1,6 @@
-To install pygame 
+To install pygame(on MAC OSX) 
+For Windows attempt to follow the instructions on pygame website 
+http://pygame.org/download.shtml
 
 #First install homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
@@ -15,7 +17,7 @@ brew install sdl sdl_image sdl_mixer sdl_ttf smpeg portmidi
 #Install numpy 
 pip install numpy 
 
-#Download source code for pygame 
+#Download source code for pygame(pygame-1.9.1release.tar.gz) 
 http://pygame.org/download.shtml
 
 #untar and cd into pygame-1.9.1release directory 
