@@ -19,7 +19,7 @@ BLUE = (0, 0, 255)
 basicFont = pygame.font.SysFont(None, 48)
 
 # set up the text
-text = basicFont.render('Hello world!', True, WHITE, BLUE)
+text = basicFont.render('Hello world!', True, BLACK)
 textRect = text.get_rect()
 textRect.centerx = windowSurface.get_rect().centerx
 textRect.centery = windowSurface.get_rect().centery
@@ -31,7 +31,7 @@ windowSurface.fill(WHITE)
 pygame.draw.polygon(windowSurface, GREEN, ((146, 0), (291, 106), (236, 277), (56, 277), (0, 106)))
 
 # draw some blue lines onto the surface
-pygame.draw.line(windowSurface, BLUE, (60, 60), (120, 60), 4)
+pygame.draw.line(windowSurface, BLUE, (60, 60), (120, 60), 8)
 pygame.draw.line(windowSurface, BLUE, (120, 60), (60, 120))
 pygame.draw.line(windowSurface, BLUE, (60, 120), (120, 120), 4)
 
